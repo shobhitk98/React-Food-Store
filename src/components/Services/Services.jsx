@@ -9,21 +9,21 @@ const ServicesData = [
     img: Img2,
     name: "Biryani",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+      " Veg biryani can actually be made with just one vegetable or several different kinds of of veggies. ",
   },
   {
     id: 2,
-    img: Img2,
-    name: "Chiken kari",
+    img: Img,
+    name: "Chiken Biryani",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Chicken Biryani is a delicious savory rice dish that is loaded with spicy marinated chicken, caramelized onions, and flavorful saffron rice.",
   },
   {
     id: 3,
     img: Img2,
-    name: "Cold Cofee",
+    name: "Fried Rice",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      " sprinkle of curry powder is a quick way to add a ton of flavor to fried rice.",
   },
 ];
 const Services = () => {
@@ -38,8 +38,7 @@ const Services = () => {
             </p>
             <h1 className="text-3xl font-bold">Services</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+              We have  Dine in Service and Take away service to and We accept online orders also <br /> Feel free to contact us 24hours Open
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
@@ -71,7 +70,7 @@ const Services = () => {
                       name="rating"
                     /> */}
                   </div>
-                  <h1 className="text-xl font-bold">{service.name}</h1>
+                  <h1 className=" mt-7 text-xl font-bold">{service.name}</h1>
                   <p className="text-gray-500 group-hover:text-white duration-high text-sm line-clamp-2">
                     {service.description}
                   </p>

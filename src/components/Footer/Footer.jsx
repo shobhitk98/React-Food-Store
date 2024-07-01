@@ -19,8 +19,7 @@ const Footer = () => {
               FOODIE
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+            The best Place for food & drinks in Delhi NCR {" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
@@ -89,7 +88,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-center py-10 border-t-2 border-gray-300/50">
-            @copyright 2024 All rights reserved || Made with ❤️ by Dilshad
+            @copyright 2024 All rights reserved || Made with ❤️ by Shobhit
           </div>
         </div>
       </section>
